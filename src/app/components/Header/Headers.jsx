@@ -36,7 +36,7 @@ const Headers = () => {
             <div
                 className={`
                     ${headerActive ? 'h-[60px] my-5' : 'h-[72px] my-8'}
-                    w-[calc(100%-40px)] lg:w-full max-w-[1312px] mx-5 md:mx-auto text-white bg-[#FFFFFF26] rounded-lg
+                    w-[calc(100%-40px)] xxl:w-full max-w-[1312px] mx-auto text-white bg-[#FFFFFF26] rounded-lg
                     transition-all duration-300 flex items-center justify-between px-6 relative
                 `}
             >
