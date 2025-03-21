@@ -16,7 +16,7 @@ const Features = () => {
                             width={533}
                             height={800}
                             alt=""
-                            className="object-cover"
+                            className="object-cover object-left h-[720px] lg:h-auto rounded-lg"
                         />
                         <div className="flex flex-col justify-between gap-6">
                             <div className="bg-center bg-cover">
@@ -34,7 +34,7 @@ const Features = () => {
                                     width={358}
                                     height={720}
                                     alt=""
-                                    className="lg:hidden object-cover"
+                                    className="lg:hidden object-cover max-h-[720px] h-full rounded-lg"
                                 />
                             </div>
                             <div className="flex flex-col bg-black rounded-lg gap-6 items-end lg:flex-row pt-6 px-6">
@@ -47,7 +47,7 @@ const Features = () => {
                                 />
                                 <div className="flex flex-col order-1 gap-6 lg:order-2 pb-6">
                                     <h3 className="text-[40px]">Death By Data</h3>
-                                    <p className="text-[18px] tracking-[0rem]">Every swing, slice, and missed put is stored in the app for review, so you can
+                                    <p className="text-[18px] tracking-[-0.4px] leading-[1.5rem]">Every swing, slice, and missed put is stored in the app for review, so you can
                                         relive your worst shots whenever you want.</p>
                                 </div>
                             </div>
